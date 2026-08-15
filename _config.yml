@@ -1,0 +1,61 @@
+# Site settings
+title: "Dumb Is Okay"
+subtitle: "notes, projects, and things I'm figuring out"
+description: >-
+  A blog by D — notes, projects, and things I'm figuring out.
+url: "https://dumbisokay.github.io"
+baseurl: ""
+locale: "en-US"
+
+# Theme
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+minimal_mistakes_skin: "default"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-include-cache
+
+# Author
+author:
+  name: "D"
+  bio: "Building things, occasionally writing about them."
+  location: ""
+
+# Site-wide defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# Pagination
+paginate: 10
+paginate_path: /page:num/
+
+include:
+  - _pages
+
+# Outputting
+permalink: /:categories/:title/
+timezone: America/New_York
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - token
