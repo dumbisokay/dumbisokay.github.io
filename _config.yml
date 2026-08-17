@@ -1,8 +1,8 @@
 # Site settings
 title: "Dumb Is Okay"
-subtitle: "notes, projects, and things I'm figuring out"
+subtitle: "Coming to terms with culture, music, mortality and the human condition."
 description: >-
-  A blog by D — notes, projects, and things I'm figuring out.
+  A personal blog about culture, music, mortality and the human condition. I write about my experiences, thoughts and feelings in an honest and open way.
 url: "https://dumbisokay.github.io"
 baseurl: ""
 locale: "en-US"
@@ -19,8 +19,8 @@ plugins:
 # Author
 author:
   name: "D"
-  bio: "Building things, occasionally writing about them."
-  location: ""
+  bio: ""
+  location: "Stuttgart, Germany"
 
 # Site-wide defaults
 defaults:
@@ -50,7 +50,7 @@ include:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: America/New_York
+timezone: Europe/Berlin
 
 # Exclude from processing
 exclude:
